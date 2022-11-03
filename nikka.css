@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.border{
+    height: 150px;
+    width: 100%;
+    color: rgb(142, 231, 9);
+    background-color:#fff ;
+    font-size: 55px;  
+}
+.back_video{
+    position: absolute;
+   
+object-fit:cover;
+right: 0;
+z-index: -1;
+bottom: 0%;
+}
+@media(min-aspect-ratio:16/9){
+    .back_video{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back_video{
+    
+    }
+}
+#heading{
+font: size 40px;
+margin-left: 146;
+}
+.table th{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid;
+    padding: 18px 25px;
+    background-color: black;
+    color: #fff;
+    height: 55px;
+}
+.table th a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+}
+.wel{
+    top: 780px;
+    position: absolute;
+    right: 723px;
+    font-size: 18px;
+    text-align: center;
+}
+.table{
+    position: relative;
+    margin-left: 150px;
+    font-size: 15px;
+    margin-top: 5px;
+    height: 25px;
+    margin-top: -6px;
+}
+.para{
+    top: 830px;
+    position: absolute;
+    margin-left: 365px;
+    font-size: 30px;
+    color: rgb(130, 173, 220);
+}
+#community{
+    background-color:rgb(142, 231, 9);
+}
+.post{
+    top: 930px;
+    position: absolute;
+    left: 107px;
+}
+.postlink{
+    top: 970px;
+    position: absolute;
+    left: 20px;
+    color: violet;
+    font-size: 20px;
+}
+.award{
+    position: absolute;
+    top: 1100px;
+    left: 20px;
+    color: violet;
+    font-size: 19px;
+
+}
+.carrers{
+    position: absolute;
+    left: 472px;
+    top: 972px;
+    color: greenyellow;
+    font-size: 19px;
+}
+.carrhead{
+    top: 926px;
+    position: absolute;
+    left: 472px;
+    font-size: 19px;
+}
+.viewjob{
+    position: absolute;
+    left: 472;
+    top: 1020px;
+    font-size: 15px;
+}
+.latesthead{
+
+    position: absolute;
+    left: 1097px;
+    top: 926px;
+    font-size: 19px;
+}
+.latest{
+    position: absolute;
+    left: 1097px;
+    top: 972px;
+    font-size: 18px;
+    color:rgb(123, 123, 7);
+} 
+.image{
+    margin-top: 1090px;
+    display: inline-flex;
+    margin-left: 391px;   
+}
+#logi{
+    margin: left 410px;;
+}
+.mission{
+    padding-left: 61px;
+}
+.logi{
+    margin-left: 106px;
+}
+.engine{
+    padding-left: 112px;
+
+}
+.mission:hover{
+    background-color:rgb(200, 241, 137);
+    cursor: pointer;
+}
+
+.logi:hover{
+    background-color:rgb(200, 241, 137);
+    cursor: pointer;
+}
+.engine:hover{
+    background-color:rgb(200, 241, 137);
+    cursor: pointer;
+}
+#misup{
+    margin-left: 372px;   
+}
+#logistic{
+    margin-left: 119px;
+}
+    
+.divclass{
+display: flex;
+padding-top: 10px;
+font-size: 20px
+}
+#eng{
+margin-left: 152px;
+}
+.list{
+    display: flex;
+    padding-top: 23px;
+    justify-content: space-between;
+}
+.list ul{
+   display: inline-flex; 
+   padding: 10px;
+   padding: 18px 25px;
+}
+.list ul li{
+    justify-content:space-between;
+}
+.list nav{
+align-items: center;
+justify-content: space-between;
+padding: 20px 8%;
+}
+.list nav ul li a{
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+}
+
+.list nav ul li {
+    margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+
